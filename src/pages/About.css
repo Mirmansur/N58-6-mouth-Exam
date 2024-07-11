@@ -37,7 +37,7 @@
 .about-main {
   background: #ffffff;
   width: 90%;
-  height: 591px;
+  height: 471px;
   border-radius: 12px;
   margin-top: 140px;
 }
@@ -180,4 +180,12 @@
   background: #f6f6fb;
   padding: 10px;
   border-radius: 12px;
+}
+.about-finish {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
 }
