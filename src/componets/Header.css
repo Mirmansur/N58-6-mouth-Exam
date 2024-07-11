@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  position: relative;
+  align-items: center;
+  background-color: #5b5ce2;
+  width: 97px;
+  height: 100vh;
+}
+.start {
+  margin-top: 30px;
+  margin-bottom: 38px;
+}
+.finish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.active {
+  background: #6c6de5;
+}
+.icon {
+  padding: 10px;
+  border-radius: 5px;
+}
