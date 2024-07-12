@@ -63,6 +63,14 @@
       "code": "QW2322",
       "price": 33.44,
       "priceInSale": 1.88
+    },
+    {
+      "id": "bab1",
+      "name": "Maxmudov Mirsobit",
+      "brand": "SAMSUNG",
+      "code": "QW667",
+      "price": 2.55,
+      "priceInSale": 3
     }
   ]
 }
