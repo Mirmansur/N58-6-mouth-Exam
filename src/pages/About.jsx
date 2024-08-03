@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import "../pages/About.css";
 import Loading from "./Loading";
 
-const API_URL = "http://localhost:3000/products";
+const API_URL = "https://66a9fe90613eced4eba71d31.mockapi.io/category";
 
 const About = () => {
   const [name, setName] = useState("");

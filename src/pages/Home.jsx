@@ -9,19 +9,20 @@ import { Button, Modal, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Loading from "./Loading";
 
-const API_URL = "http://localhost:3000/products";
+const API_URL = "https://66a9fe90613eced4eba71d31.mockapi.io/category";
 
+const intialState = {
+  id: null,
+  name: "",
+  code: "",
+  brand: "",
+  price: 0,
+  priceInSale: 0,
+};
 const Home = () => {
   const [loading, setLoading] = useState(false);
   const [products, setProducts] = useState([]);
-  const [formData, setFormData] = useState({
-    id: null,
-    name: "",
-    code: "",
-    brand: "",
-    price: 0,
-    priceInSale: 0,
-  });
+  const [formData, setFormData] = useState(intialState);
   const [showModal, setShowModal] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
 
